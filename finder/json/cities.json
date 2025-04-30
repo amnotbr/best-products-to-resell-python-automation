@@ -1,0 +1,178 @@
+{
+    "AL": [
+      "https://auburn.craigslist.org",
+      "https://bham.craigslist.org",
+      "https://dothan.craigslist.org",
+      "https://shoals.craigslist.org",
+      "https://gadsden.craigslist.org",
+      "https://huntsville.craigslist.org",
+      "https://mobile.craigslist.org",
+      "https://montgomery.craigslist.org",
+      "https://tuscaloosa.craigslist.org"
+    ],
+    "AK": [
+      "https://anchorage.craigslist.org",
+      "https://fairbanks.craigslist.org",
+      "https://kenai.craigslist.org",
+      "https://juneau.craigslist.org"
+    ],
+    "AZ": [
+      "https://flagstaff.craigslist.org",
+      "https://mohave.craigslist.org",
+      "https://phoenix.craigslist.org",
+      "https://prescott.craigslist.org",
+      "https://showlow.craigslist.org",
+      "https://sierravista.craigslist.org",
+      "https://tucson.craigslist.org",
+      "https://yuma.craigslist.org"
+    ],
+    "AR": [
+      "https://fayar.craigslist.org",
+      "https://fortsmith.craigslist.org",
+      "https://jonesboro.craigslist.org",
+      "https://littlerock.craigslist.org",
+      "https://texarkana.craigslist.org"
+    ],
+    "CA": [
+      "https://bakersfield.craigslist.org",
+      "https://chico.craigslist.org",
+      "https://fresno.craigslist.org",
+      "https://goldcountry.craigslist.org",
+      "https://hanford.craigslist.org",
+      "https://humboldt.craigslist.org",
+      "https://imperial.craigslist.org",
+      "https://inlandempire.craigslist.org",
+      "https://losangeles.craigslist.org",
+      "https://mendocino.craigslist.org",
+      "https://merced.craigslist.org",
+      "https://modesto.craigslist.org",
+      "https://monterey.craigslist.org",
+      "https://orangecounty.craigslist.org",
+      "https://palmsprings.craigslist.org",
+      "https://redding.craigslist.org",
+      "https://sacramento.craigslist.org",
+      "https://sandiego.craigslist.org",
+      "https://sfbay.craigslist.org",
+      "https://slo.craigslist.org",
+      "https://santabarbara.craigslist.org",
+      "https://santamaria.craigslist.org",
+      "https://siskiyou.craigslist.org",
+      "https://stockton.craigslist.org",
+      "https://susanville.craigslist.org",
+      "https://ventura.craigslist.org",
+      "https://visalia.craigslist.org",
+      "https://yubasutter.craigslist.org"
+    ],
+    "CO": [
+      "https://boulder.craigslist.org",
+      "https://cosprings.craigslist.org",
+      "https://denver.craigslist.org",
+      "https://eastco.craigslist.org",
+      "https://fortcollins.craigslist.org",
+      "https://rockies.craigslist.org",
+      "https://pueblo.craigslist.org",
+      "https://westslope.craigslist.org"
+    ],
+    "CT": [
+      "https://newlondon.craigslist.org",
+      "https://hartford.craigslist.org",
+      "https://newhaven.craigslist.org",
+      "https://nwct.craigslist.org"
+    ],
+    "DE": [
+      "https://delaware.craigslist.org"
+    ],
+    "DC": [
+      "https://washingtondc.craigslist.org"
+    ],
+    "FL": [
+      "https://miami.craigslist.org",
+      "https://daytona.craigslist.org",
+      "https://keys.craigslist.org",
+      "https://fortmyers.craigslist.org",
+      "https://gainesville.craigslist.org",
+      "https://cfl.craigslist.org",
+      "https://jacksonville.craigslist.org",
+      "https://lakeland.craigslist.org",
+      "https://lakecity.craigslist.org",
+      "https://ocala.craigslist.org",
+      "https://okaloosa.craigslist.org",
+      "https://orlando.craigslist.org",
+      "https://panamacity.craigslist.org",
+      "https://pensacola.craigslist.org",
+      "https://sarasota.craigslist.org",
+      "https://spacecoast.craigslist.org",
+      "https://staugustine.craigslist.org",
+      "https://tallahassee.craigslist.org",
+      "https://tampa.craigslist.org",
+      "https://treasure.craigslist.org"
+    ],
+    "GA": [
+      "https://albanyga.craigslist.org",
+      "https://athensga.craigslist.org",
+      "https://atlanta.craigslist.org",
+      "https://augusta.craigslist.org",
+      "https://brunswick.craigslist.org",
+      "https://columbusga.craigslist.org",
+      "https://macon.craigslist.org",
+      "https://nwga.craigslist.org",
+      "https://savannah.craigslist.org",
+      "https://statesboro.craigslist.org",
+      "https://valdosta.craigslist.org"
+    ],
+    "HI": [
+      "https://honolulu.craigslist.org"
+    ],
+    "ID": [
+      "https://boise.craigslist.org",
+      "https://eastidaho.craigslist.org",
+      "https://lewiston.craigslist.org",
+      "https://twinfalls.craigslist.org"
+    ],
+    "IL": [
+      "https://bn.craigslist.org",
+      "https://chambana.craigslist.org",
+      "https://chicago.craigslist.org",
+      "https://decatur.craigslist.org",
+      "https://lasalle.craigslist.org",
+      "https://mattoon.craigslist.org",
+      "https://peoria.craigslist.org",
+      "https://rockford.craigslist.org",
+      "https://carbondale.craigslist.org",
+      "https://springfieldil.craigslist.org",
+      "https://quincy.craigslist.org"
+    ],
+    "IN": [
+      "https://bloomington.craigslist.org",
+      "https://evansville.craigslist.org",
+      "https://fortwayne.craigslist.org",
+      "https://indianapolis.craigslist.org",
+      "https://kokomo.craigslist.org",
+      "https://tippecanoe.craigslist.org",
+      "https://muncie.craigslist.org",
+      "https://richmondin.craigslist.org",
+      "https://southbend.craigslist.org",
+      "https://terrehaute.craigslist.org"
+    ],
+    "IA": [
+      "https://ames.craigslist.org",
+      "https://cedarrapids.craigslist.org",
+      "https://desmoines.craigslist.org",
+      "https://dubuque.craigslist.org",
+      "https://fortdodge.craigslist.org",
+      "https://iowacity.craigslist.org",
+      "https://masoncity.craigslist.org",
+      "https://quadcities.craigslist.org",
+      "https://siouxcity.craigslist.org",
+      "https://ottumwa.craigslist.org",
+      "https://waterloo.craigslist.org"
+    ],
+    "KS": [
+      "https://lawrence.craigslist.org",
+      "https://ksu.craigslist.org",
+      "https://nwks.craigslist.org",
+      "https://salina.craigslist.org",
+      "https://seks.craigslist.org",
+      "https://swks.craigslist"
+    ]
+}
