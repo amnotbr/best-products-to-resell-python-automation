@@ -20,12 +20,33 @@ class craigslistScan:
         self.headers = {"User-Agent": random.choice(self.headers_list)}
         #self.ebay = open("", "r")
 
+
     """
-        NEEDED:
-            Price
-            Product
-            Location
+        THIS WHOLE CLASS GOES IN A CHAIN OF EVENTS
+
+        FIRST IS DISPLAY THE PROCUTS
+        NEXT IS ENHANCE
+        LAST IS WRITE TO THE FILE
     """
+
+    # display all the products on the page
+    def displayProducts(self):
+        site = requests.get(self.craigslist, headers=self.headers)
+        link_list = []
+
+        # Get all the links
+        soup = BFS(site.text, 'html.parser')
+        links = soup.find_all("a", href=True)
+        for a in links:
+            link_list.append(a['href'])
+
+        
+         # get rid of the weird # and / in the beginning of  the list
+        link_list = [link for link in link_list if link not in ["/", "#"]]
+        
+        self.enhanceProducts(link_list) # enhance the products (open it up on another requests bitchass thing idfk)
+
+
     def enhanceProducts(self, product): # enhance the product on another page
         for link in product:
             full_url = f"{self.base_url}{link}" if link.startswith("/") else link
@@ -78,26 +99,6 @@ class craigslistScan:
                     print(e)
         self.writeToFile()
 
-            
-
-    # display all the products on the page
-    def displayProducts(self):
-        site = requests.get(self.craigslist, headers=self.headers)
-        link_list = []
-
-        # Get all the links
-        soup = BFS(site.text, 'html.parser')
-        links = soup.find_all("a", href=True)
-        for a in links:
-            link_list.append(a['href'])
-
-        
-         # get rid of the weird # and / in the beginning of  the list
-        link_list = [link for link in link_list if link not in ["/", "#"]]
-        
-        self.enhanceProducts(link_list) # enhance the products (open it up on another requests bitchass thing idfk)
-
-
     # write to the file
     def writeToFile(self):
         print(f"Writing {len(self.products)} products to file") # declare shit is being written
@@ -112,6 +113,8 @@ class craigslistScan:
 
         print("Products saved to products.json") # final message
         print(datetime.datetime.now())
+
+
 
 class cleanUpCraigslistData:
     def __init__(self):

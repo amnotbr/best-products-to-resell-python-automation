@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Read Me</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOW-TO Guide</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <!--This section is the title-->
-    <div class="flex flex-row perc-width-100 justify-center container">
-        <h1 class="font-weight-400">
-            HOW-TO
-        </h1>
-    </div>
+<body class="bg-gray-900 text-gray-100 font-sans">
 
-    <div class="flex flex-row container-fluid">
-        <div class="flex flex-column perc-width-100 justify-center container">
-            <h2 class="font-weight-600">How to use this repository</h2>
-            <p>To use this repository, follow these steps:</p>
-            <ol>
-                <li>Clone the repository to your local machine.</li>
-                <li>Install the required dependencies using <code>pip install -r requirements.txt</code>.</li>
-                <li>Run the application using <code>npm start</code>.</li>
-            </ol>
-        </div>
+  <!-- Title Section -->
+  <header class="bg-gray-800 shadow-md py-6">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold tracking-wide text-blue-400">HOW-TO</h1>
     </div>
+  </header>
+
+  <!-- Instructions Section -->
+  <main class="container mx-auto px-4 py-10">
+    <div class="bg-gray-800 rounded-2xl shadow-md p-8 max-w-3xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-4 text-white">How to use this repository</h2>
+      <p class="mb-6 text-gray-300">To use this repository, follow these steps:</p>
+      <ol class="list-decimal list-inside space-y-3 text-lg text-gray-200">
+        <li>
+          <span class="font-medium text-blue-400">Clone</span> the repository to your local machine.
+        </li>
+        <li>
+          <span class="font-medium text-blue-400">Install</span> the required dependencies using
+          <code class="bg-gray-700 px-2 py-1 rounded text-sm text-green-300">pip install -r requirements.txt</code>.
+        </li>
+        <li>
+          <span class="font-medium text-blue-400">Run</span> the application using the index.html file in web file
+        </li>
+        <li>
+            <span class="font-medium text-blue-400">If</span> you know python you should be fine
+        </li>
+      </ol>
+    </div>
+  </main>
 </body>
 </html>
